@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("2d0813189ab062e5379080ba6d2b0969.gif");
+    background-attachment: fixed;
+}
+
+.clear{clear: both;}
+
+.center {
+    max-width: 750px;
+    margin: 130px auto;
+    background-color: /*rgba(0, 0, 0, 0.489);*/ #bdbdbd4e;
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 4px 4px 8px black;
+}
+
+.form-elements {
+    margin-top: 30px;
+}
+
+.form-elements input,select,textarea {
+    margin-top: 10px;
+}
+
+.form-elements h2 {
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.form-elements input[type="text"],
+.form-elements input[type="email"],
+.form-elements input[type="number"],
+select.role,
+select.feature {
+    width: 100%;
+    padding: 9px 0;
+    border:0;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: normal;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.539);
+}
+
+.form-elements input[type="text"]:focus,
+.form-elements input[type="email"]:focus,
+.form-elements input[type="number"]:focus,
+textarea:focus,
+select.role:focus,
+select.feature:focus {
+    outline: none;
+    border: 2px solid rgb(106, 106, 106);
+    padding: 7px 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 110px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.539);
+}
+
+.form-elements input[type="submit"]{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    background: linear-gradient(#5a5a5a 0%, #ffffff);
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.539);
+
+}
+
+.form-elements input[type="submit"]:hover {
+    background: linear-gradient(#4d4d4d 0%, #d5d5d5);
+}
+
+
+
+.input-radio h2{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.input-radio {
+    margin-top: 10px;
+}
+
+.input-checkbox h2{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.input-checkbox {
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: -10px;
+}
+
+.main > h2,h3 {
+    color: white;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main > h3 {
+    font-size: 20px;
+    font-weight: normal;
+    top: 90px;
+    position: relative;
+    font-style: italic;
+}
+
+.search-form h2, p {
+    display: inline-block;
+    color: white;
+    
+}
+
+.search-form p {
+    padding-left: 5px;
+}
